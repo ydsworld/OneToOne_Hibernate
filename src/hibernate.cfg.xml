@@ -16,8 +16,8 @@
 <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
     
    
-      <mapping class="oneToMany.UserDetails"/>
-     <mapping class="oneToMany.Vehicle"/>
+      <mapping class="oneToOne.UserDetails"/>
+     <mapping class="oneToOne.Vehicle"/>
      
 </session-factory>
 
